@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name" translatable="false">BD APP</string>
+
+    <!-- TODO Make true for Test ads and false for Live ads -->
+    <bool name="test_mode">false</bool>
+    <string name="test_device_id"></string>
+    <string name="APPLOVIN_SDK_KEY">f6Lt3CHsi4omms5Po9oIId07JCekgdSqRrHhr8wyTQp3X3Tb3Th4VF1Oc7i44EBFABtM0GL6n1_1bQPDmiRlP3</string>
+
+    <!--TODO change these privacy policy and terms and condition link with your own links-->
+    <string name="privacy_policy_link" translatable="false">https://www.btclea.xyz</string>
+    <string name="terms_and_condition_link" translatable="false">https://www.btclea.xyz</string>
+    <string name="telegram_url">https://t.me/Dev_BD</string>
+    <string name="instagram_url"></string>
+
+
+    <string name="redeem_tag_line_1">Are You Sure to Redeem your coins?</string>
+    <string name="redeem_tag_line_2">Your payment details is </string>
+    <string name="redeem_tag_line_3">and your redeem coins are </string>
+    <string name="redeem_tag_line_4">and your redeem method is </string>
+    <string name="refer_more">Refer More to Earn More</string>
+    <string name="refer_desc">Refer with your friends to win up to  \n <b>৳50 Taka</b>  </string>
+
+    <string name="loading">Loading…</string>
+    <string name="login">Login</string>
+    <string name="number">Number</string>
+    <string name="password">Password</string>
+    <string name="didNotSign_up">Not Have Account ? Sign up here.</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_valid_number">Enter Valid Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="have_an_account">Already Have Account ? Login here.</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="enter_6_digit_password">Enter 6 or More Digit Password</string>
+    <string name="select_language">Select Language</string>
+    <string name="select">Select</string>
+    <string name="referCode">Referral Code (optional)</string>
+    <string name="please_wait">Please Wait…</string>
+    <string name="getting_data_from_server">Fetching Your data from server</string>
+    <string name="login_successfully">Login Successfully…</string>
+    <string name="cheating_in_app">You Are Blocked For Cheating in our app</string>
+    <string name="registration_success">Registration Successfully…</string>
+    <string name="login_in_progress">Login</string>
+    <string name="signup_in_progress">Sign Up</string>
+    <string name="no_user_found">This Email is not Registered.</string>
+    <string name="spin_wheel">Spin Wheel</string>
+    <string name="scratch">Scratch Card</string>
+    <string name="daily_checkin">Daily Checkin</string>
+    <string name="slot_machine">Slot Machine</string>
+    <string name="refer_and_win"><![CDATA[Refer & Win]]></string>
+    <string name="rate_this_app">Rate This App</string>
+    <string name="LoginFirst">Login First</string>
+    <string name="you_won">Congratulation! \nYou Won…</string>
+    <string name="add_to_wallet">Collect Now</string>
+    <string name="okk">Okk</string>
+    <string name="today_chance_over">Today\'s Chance is over, try again tomorrow</string>
+    <string name="better_luck">Better Luck Next Time</string>
+    <string name="today_checkin_over">You Already Collect Today Reward, try again tomorrow</string>
+    <string name="cancel">No</string>
+    <string name="exit_text">Are you sure to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no_internet_connection">No Internet Connection please check your internet connection.</string>
+
+    <string name="slow_internet_connection">Slow Internet Connection Please Check your Internet Connection</string>
+    <string name="play">10-50</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="updateing_profile">Updating Your Profile</string>
+    <string name="update_successfully">Your Profile Update Successfully</string>
+    <string name="login_first">Login First</string>
+    <string name="change_language">Change Language</string>
+    <string name="others_settings">Settings</string>
+    <string name="your_referCode">Your Refer Code</string>
+    <string name="how_does_refer_work">How Does Refer Work?</string>
+    <string name="user_registered">User Register</string>
+    <string name="first_payout">User First Redeem</string>
+    <string name="get_reward">Get Reward</string>
+    <string name="refer_now">Refer Now</string>
+    <string name="term">Terms &amp; Condition</string>
+    <string name="not_change_email">You can\'t change email</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="music">Music</string>
+    <string name="oneCoinEquleTwo">100 Coins = 1 BDT</string>
+    <string name="number_or_upi">Enter Number, Paypal or Upi Id</string>
+    <string name="withdraw_methods">You Can Redeem Coins via Paytm , Paypal or Upi Id</string>
+    <string name="withdraw_money">Redeem</string>
+    <string name="enter_points">Enter Coins</string>
+    <string name="enterNumberOrUpi">Enter Payment Details</string>
+    <string name="enter_correct_points">Enter Correct Coins</string>
+    <string name="redeem_successfully">Redeem Successfully</string>
+    <string name="in_progress">In Progress</string>
+    <string name="you_are_blocked">You are blocked due to cheating or multiple account</string>
+    <string name="incomplite_profile">Your Profile is Incomplete please update your Profile</string>
+    <string name="paytm">Paytm</string>
+    <string name="phonePe">Paypal</string>
+    <string name="upi_id">Upi</string>
+    <string name="paypal">Paypal</string>
+    <string name="referCodeoptional">"Refer Code (Optional) "</string>
+
+
+    <string name="forgot_password" translatable="false">Forgot Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="reset_password" translatable="false">Reset Password</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="otp">Enter OTP</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="resend_otp">Did not get OTP? Resend</string>
+
+    <string name="not_watch_full_video" translatable="false">Ohh ! You not watched full video so Coins will not be added to your wallet.</string>
+    <string name="available_points_for_redeem">Total Available Coins</string>
+    <string name="telegram_link">Telegram</string>
+    <string name="_0">0</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_up_to_continue">Sign Up to continue</string>
+    <string name="registerText1">Register</string>
+    <string name="registerText2">Register</string>
+    <string name="full_name_text">Full Name</string>
+    <string name="enter_your_name_text">Enter Your Name</string>
+    <string name="email_text">Email</string>
+    <string name="enter_your_email_text">Enter Your Email</string>
+    <string name="phone_number_text">Phone Number</string>
+    <string name="enter_your_number_text">Enter Your Number</string>
+    <string name="password_text">Password</string>
+    <string name="enter_the_password_text">Enter the Password</string>
+    <string name="referral_code_txt">Referral Code</string>
+    <string name="enter_the_refer_code_optional">Refer code (Optional)</string>
+    <string name="do_you_have_an_account_sign_in">Do you have an account? Sign In</string>
+    <string name="sign_in_to_continue_txt">Sign in to continue</string>
+    <string name="forget_password_txt">Forget Password?</string>
+    <string name="don_t_have_an_account_sign_up_txt">Don\'t have an account? Sign Up</string>
+    <string name="forgot_your_password_txt">Forgot your password</string>
+    <string name="forgot">Forgot</string>
+    <string name="resent_otp">Resent OTP?</string>
+    <string name="submit_otp">Submit OTP</string>
+    <string name="back_to_login_click_here">Back To Login: Click Here</string>
+    <string name="slash">/</string>
+    <string name="coin">coin</string>
+    <string name="regenerate_btn">regenerate btn</string>
+    <string name="enter_captcha_code">Enter captcha code</string>
+    <string name="hello">Hello,</string>
+    <string name="total_coins">Total Coins:</string>
+    <string name="spin_image">spin image</string>
+    <string name="captcha_image">captcha image</string>
+    <string name="earn_more_ways">Earn more ways</string>
+    <string name="image_desc">image_desc</string>
+    <string name="click_here_to_collect_coins">Click here to collect coins</string>
+    <string name="captcha_earn">Captcha Earn</string>
+    <string name="fill_captcha_to_earn_coins">Fill captcha to earn coins</string>
+    <string name="share_with_your_friends_to_earn">Share with your friends to earn</string>
+    <string name="withdraw_your_coins">Withdraw your coins</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="click_here_to_write_a_comment">Click here to write a comment</string>
+    <string name="profile">Profile</string>
+    <string name="update_your_profile">Update your profile</string>
+    <string name="_10000000">10000000</string>
+    <string name="min_withdraw_00_000">Min Withdraw: 00,000</string>
+    <string name="_00_000_0_00">00,000 = ৳0.00/-</string>
+    <string name="select_payment_method">Select payment method</string>
+    <string name="enter_payment_details">Enter Payment Details</string>
+    <string name="enter_paytm_number">Enter PayTm Number</string>
+    <string name="enter_your_coins">Enter your coins</string>
+    <string name="share_with_friends_to_earn">Share with friends to earn</string>
+    <string name="referral_earn">Referral Earn</string>
+    <string name="you_ve_won">You\'ve Won</string>
+    <string name="_00_00">00:00</string>
+    <string name="spin">SPIN</string>
+    <string name="play_quiz_to_win">Play Quizzes</string>
+    <string name="wait_checking_answer">Checking answer…</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="who_invented_android_studio_who_invented_android_studio">Who invented android studio? Who invented android studio?</string>
+    <string name="_1_10">1/10</string>
+    <string name="_25">25</string>
+    <string name="play_again">Play Again</string>
+    <string name="share_txt">Share</string>
+    <string name="home_txt">Home</string>
+    <string name="play_candy_crush">Play Candy Crush</string>
+    <string name="total_score">Total Score:</string>
+    <string name="mgl_banner">mgl_banner</string>
+    <string name="qureka_banner">qureka_banner</string>
+    <string name="sponsored_links">Sponsored Links</string>
+    <string name="play_unlimited_quiz_to_earn">Play Unlimited Quiz to Earn</string>
+    <string name="wonText">You need to play minimum \n 2 minutes</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="popular_games">Popular Games</string>
+    <string name="show_ad">Show Ad</string>
+    <string name="super_coin">Available Coins:</string>
+    <string name="watch_amp_earn"><![CDATA[Watch & Earn]]></string>
+    <string name="available">Total Watch:</string>
+    <string name="left">Left:</string>
+    <string name="collect">Collect</string>
+    <string name="used">Used:</string>
+    <string name="watched">Watched:</string>
+    <string name="_10">10</string>
+    <string name="games">Games</string>
+    <string name="watch_10_ads_to_win_the_biggest_reward">Watch 10 ads to win the biggest reward</string>
+    <string name="total">Total:</string>
+    <string name="google_play">Google Play</string>
+    <string name="_10_gift_voucher">৳10 Gift Voucher</string>
+    <string name="ads_loading">Loading ad...</string>
+    <string name="rotate_and_earn">Rotate and Earn</string>
+    <string name="applovin_video_ad">4205e5b9c695d7b4</string>
+    <string name="applovin_inter_ad">bb068493663e2c0f</string>
+    <string name="applovin_banner_ad">2db52f9028eeef86</string>
+    <string name="install_and_earn"><![CDATA[Install & Earn]]></string>
+    <string name="instructions">Instructions</string>
+    <string name="use_for_2_minute">Now Use for 2 minutes</string>
+    <string name="offerwall">Offerwall</string>
+    <string name="rewards">Gift Cards</string>
+    <string name="read_and_earn"><![CDATA[Read & Earn]]></string>
+    <string name="logout">Logout</string>
+    <string name="redeem_history">Redeem History</string>
+    <string name="check_what_you_earn_till_not">Check what you earn till now</string>
+    <string name="noWebsiteFound">No More Articals Founds</string>
+    <string name="noVideoFound">No More Video Found</string>
+    <string name="noAppsFound">No More Apps Found</string>
+    <string name="noPaymentFound">No Payments Method Found</string>
+    <string name="noGameFound">No More Games Found</string>
+</resources>

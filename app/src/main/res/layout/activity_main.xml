@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout_main"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/lyt1"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/lyt1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent">
+
+
+        <me.ibrahimsn.lib.SmoothBottomBar
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            app:backgroundColor="@color/colorPrimary"
+            app:cornerRadius="30dp"
+            app:corners="top_left|top_right|bottom_left|bottom_right"
+            app:iconSize="24dp"
+            app:iconTint="@color/white"
+            app:iconTintActive="@color/colorPrimary"
+            app:indicatorColor="@color/white"
+            app:indicatorRadius="30dp"
+            app:itemFontFamily="@font/baloo_thambi"
+            app:menu="@menu/item_menu"
+            app:sideMargins="10dp"
+            app:textColor="@color/colorPrimary"
+            app:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

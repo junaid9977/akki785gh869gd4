@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "161858843856",
+    "project_id": "all-in-one-c45dd",
+    "storage_bucket": "all-in-one-c45dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161858843856:android:eaef0cc793be982523dad5",
+        "android_client_info": {
+          "package_name": "com.tanejkbd.dvtanejk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161858843856-8fhflrc9cnu9be2fceqh1o4d0mja6dib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCinJFiMpkjn0wu2U5WqQVnoHm_N5Duock"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161858843856-8fhflrc9cnu9be2fceqh1o4d0mja6dib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

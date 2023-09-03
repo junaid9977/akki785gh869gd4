@@ -1,0 +1,96 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/visit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="7sp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/visit1_logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/visit"
+            app:riv_corner_radius="15sp" />
+
+        <TextView
+            android:id="@+id/visit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/layout_coin"
+            android:layout_toEndOf="@id/visit1_logo"
+            android:ellipsize="end"
+            android:fontFamily="@font/baloo_thambi"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/visit_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visit_title"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_toStartOf="@+id/layout_coin"
+            android:layout_toEndOf="@id/visit1_logo"
+            android:ellipsize="end"
+            android:fontFamily="serif"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            tools:ignore="SmallSp" />
+
+        <RelativeLayout
+            android:id="@+id/layout_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="25sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/btn_bg_one">
+
+            <ImageView
+                android:id="@+id/icons"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/king_coin_img"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/visit_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@+id/icons"
+                android:fontFamily="@font/baloo_thambi"
+                android:gravity="center_vertical"
+                android:padding="1dp"
+                android:text="100"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

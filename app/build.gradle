@@ -1,0 +1,187 @@
+plugins {
+    id 'com.android.application'
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    //this to copied
+}
+
+def API_KEY = '"' + ApiKey + '"' ?: '"Api Key Not Found"'
+def LOGIN_KEY = '"' + LoginKey + '"' ?: '"Login Key Not Found"'
+def REG_KEY = '"' + RegKey + '"' ?: '"SignUp Key Not Found"'
+def U_PROFILE_KEY = '"' + UprofileKey + '"' ?: '"Profile Key Not Found"'
+def FP_KEY = '"' + FpKey + '"' ?: '"Forget P Key Not Found"'
+def U_POINTS_KEY = '"' + UpointsKey + '"' ?: '"Update Points Key Not Found"'
+def RP_KEY = '"' + RpKey + '"' ?: '"Reset P Key Not Found"'
+def UD_KEY = '"' + UdKey + '"' ?: '"Update Points Key Not Found"'
+def ADMIN_SETTINGS_KEY = '"' + ASettingsKey + '"' ?: '"Admin Settings Key Not Found"'
+def GAME_SETTINGS_KEY = '"' + GSettingsKey + '"' ?: '"Game Settings Key Not Found"'
+def REDEEM_SETTINGS_KEY = '"' + RSettingsKey + '"' ?: '"Redeem Settings Key Not Found"'
+def APPS_SETTINGS_KEY = '"' + AppsSettingKey + '"' ?: '"Apps Settings Key Not Found"'
+def VIDEO_SETTINGS_KEY = '"' + VideoSettingKey + '"' ?: '"Apps Settings Key Not Found"'
+def VISIT_SETTINGS_KEY = '"' + VisitSettingKey + '"' ?: '"Visit Settings Key Not Found"'
+def REDEEM_HISTORY_KEY = '"' + RedeemHistoryKey + '"' ?: '"Redeem History Key Not Found"'
+def STRING = 'String'
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
+    ndkVersion '23.1.7779620'
+
+    defaultConfig {
+        applicationId "com.tanejkbd.dvtanejk"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+        each {type ->
+            type.buildConfigField STRING, 'ApiKey', API_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'LoginKey', LOGIN_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'RegKey', REG_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'UprofileKey', U_PROFILE_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'FpKey', FP_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'UpointsKey', U_POINTS_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'RpKey', RP_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'UdKey', UD_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'ASettingsKey', ADMIN_SETTINGS_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'GSettingsKey', GAME_SETTINGS_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'RSettingsKey', REDEEM_SETTINGS_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'AppsSettingKey', APPS_SETTINGS_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'VideoSettingKey', VIDEO_SETTINGS_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'VisitSettingKey', VISIT_SETTINGS_KEY
+        }
+        each {type ->
+            type.buildConfigField STRING, 'RedeemHistoryKey', REDEEM_HISTORY_KEY
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.4.1' //1.3.0
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' //2.1.2
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation files('../libs/unity-ads.aar')
+    implementation project(path: ':modules')
+
+    testImplementation 'junit:junit:4.13.2' //4.13
+    implementation 'com.google.android.material:material:1.6.1' //1.4.0
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3' // 1.1.2
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0' //3.3.0
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+
+    //sceen Size
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    //rootbear
+    implementation 'com.scottyab:rootbeer-lib:0.1.0'
+
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+    implementation 'com.onesignal:OneSignal:4.6.0'
+
+
+
+    //Spin
+    implementation 'com.github.mmoamenn:LuckyWheel_Android:0.3.0'
+    //scratch
+    implementation 'in.codeshuffle.scratchcardlayout:ScratchCardLayout:1.0.8'
+
+
+    //activityLifeCycle
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+
+    //multidex
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //volley
+    implementation 'com.android.volley:volley:1.2.1'//1.1.1
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    //:Lottie
+    implementation "com.airbnb.android:lottie:4.2.0" //3.4.0
+
+
+    //InApp Update
+    implementation 'com.google.android.play:core:1.10.2'
+
+    //Ads Network
+    implementation 'com.startapp:inapp-sdk:4.9.1'
+    implementation 'com.applovin:applovin-sdk:11.4.2'
+    implementation 'com.applovin.mediation:facebook-adapter:6.11.0.2'
+
+    implementation 'com.google.android.gms:play-services-ads-identifier'
+
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:29.0.0')
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+
+    //Chrome Tab:
+    implementation "androidx.browser:browser:1.4.0"
+
+    //SweetAlert
+    implementation 'com.github.f0ris.sweetalert:library:1.5.1'//1.5.1
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+
+
+    // Androidx Runtime
+    implementation 'androidx.work:work-runtime:2.7.1'
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
